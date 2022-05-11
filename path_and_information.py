@@ -8,7 +8,7 @@ except Exception as e:
 def cria_e_retorna_enderecos_dos_diretorios(diretorio):
     try:
         # Armazena o endereço raiz cujas pastas contendo os dados do projeto serão armazenadas:
-        caminho_raiz = r"C:\Users\hugop\Desktop\Cursos\Curso_Engenharia_de_Dados\Aulas\13_Janeiro\Projeto_Final_Desafio\Dataset"
+        caminho_raiz = r"(Inserir o caminho do arquivo)"
         
         # Junta o endereço raiz com um diretório/pasta que se deseja criar:
         caminho_completo = os.path.join(caminho_raiz, diretorio)
